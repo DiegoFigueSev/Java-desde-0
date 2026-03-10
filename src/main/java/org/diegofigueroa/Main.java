@@ -1,14 +1,11 @@
 package org.diegofigueroa;
 
-import org.diegofigueroa.introduccion.BucleFor;
-import org.diegofigueroa.introduccion.ClaseScanner;
-import org.diegofigueroa.introduccion.CondicionalesIfSwitch;
-import org.diegofigueroa.introduccion.practica.Program;
+import org.diegofigueroa.clasesyobjetos.practica.BankAccount;
+import org.diegofigueroa.clasesyobjetos.practica.BankApp;
 
 public class Main {
     static void main() {
-        Program program = new Program();
-        program.execute();
+        BankApp bankApp = new BankApp(new BankAccount("Diego Figueroa", 0.0));
     }
 }
 

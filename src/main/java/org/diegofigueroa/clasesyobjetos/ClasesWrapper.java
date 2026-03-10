@@ -1,4 +1,4 @@
-package org.diegofigueroa.oop;
+package org.diegofigueroa.clasesyobjetos;
 
 public class ClasesWrapper {
 
