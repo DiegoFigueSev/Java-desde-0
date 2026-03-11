@@ -2,10 +2,20 @@ package org.diegofigueroa;
 
 import org.diegofigueroa.clasesyobjetos.practica.BankAccount;
 import org.diegofigueroa.clasesyobjetos.practica.BankApp;
+import org.diegofigueroa.estructuras_de_datos.arraylist.MyArrayList;
+import org.diegofigueroa.estructuras_de_datos.arrays.MyArray;
+import org.diegofigueroa.estructuras_de_datos.hashset.MyHashSet;
+import org.diegofigueroa.estructuras_de_datos.iteradores.Iteradores;
+import org.diegofigueroa.estructuras_de_datos.iteradores.MyListIterator;
+import org.diegofigueroa.estructuras_de_datos.linkedhashset.MyLinkedHashSet;
+import org.diegofigueroa.estructuras_de_datos.linkedlists.MyLinkedList;
+import org.diegofigueroa.estructuras_de_datos.maps.MyHashMap;
+import org.diegofigueroa.estructuras_de_datos.treemap.MyTreeMap;
+import org.diegofigueroa.estructuras_de_datos.treeset.MyTreeSet;
 
 public class Main {
     static void main() {
-        BankApp bankApp = new BankApp(new BankAccount("Diego Figueroa", 0.0));
+        new MyListIterator();
     }
 }
 
