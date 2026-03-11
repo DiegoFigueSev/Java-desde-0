@@ -1,4 +1,4 @@
-package org.diegofigueroa.clasesyobjetos;
+package org.diegofigueroa.clases_y_objetos;
 
 public class AtributosYMetodos {
 

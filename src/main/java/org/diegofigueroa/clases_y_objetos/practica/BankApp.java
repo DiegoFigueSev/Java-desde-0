@@ -1,4 +1,4 @@
-package org.diegofigueroa.clasesyobjetos.practica;
+package org.diegofigueroa.clases_y_objetos.practica;
 
 import java.util.Scanner;
 

@@ -1,17 +1,27 @@
-package org.diegofigueroa.clasesyobjetos;
+package org.diegofigueroa.clases_y_objetos;
 
-public class MetodoStatic {
+public class AtributoStatic {
+    {
+        Classrom std1 = new Classrom("Diego");
+        Classrom std2 = new Classrom("Roberto");
 
+        std1.showInfo();
+        std2.showInfo();
+
+        Classrom.setSchoolName("Escuela #2");
+
+        std1.showInfo();
+        std2.showInfo();
+    }
 }
 
-
-class Classrom2 {
+class Classrom {
     private String studentName; //? atributo de instancia
     private static String schoolName = "Escuela tecnica #1"; // ? Inicializamos el atributo
     // * Si tenemos un atributo compartido por TODOS los objetos entonces es STATIC
 
     // ? Ya no crea un atrbituo schoolName para todos los objetos instanciados
-    public Classrom2(String studentName) {
+    public Classrom(String studentName) {
         this.studentName = studentName;
     }
 
@@ -32,6 +42,6 @@ class Classrom2 {
     }
 
     public static void setSchoolName(String schoolName) {
-        Classrom2.schoolName = schoolName;
+        Classrom.schoolName = schoolName;
     }
 }
