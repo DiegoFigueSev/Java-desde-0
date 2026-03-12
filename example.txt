@@ -1,0 +1,6 @@
+Hola soy Diego ingeniero de software comercial
+Se:
+Python
+Java
+Dart
+Javascript

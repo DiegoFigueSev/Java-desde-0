@@ -1,10 +1,18 @@
 package org.diegofigueroa;
 
 import org.diegofigueroa.estructuras_de_datos.iteradores.MyListIterator;
+import org.diegofigueroa.manejo_de_exepciones.debugging.DebuggingDeExep;
+import org.diegofigueroa.manejo_de_exepciones.excepciones_personalizadas.PerExcep;
+import org.diegofigueroa.manejo_de_exepciones.introduccion.Introduccion;
+import org.diegofigueroa.manejo_de_exepciones.jerarquia.FileHandler;
+import org.diegofigueroa.manejo_de_exepciones.manejo_de_excepciones.FileRead;
+import org.diegofigueroa.manejo_de_exepciones.practica.ErrorSimulation;
+import org.diegofigueroa.manejo_de_exepciones.proyecto.Program;
 
 public class Main {
     static void main() {
-        new MyListIterator();
+        Program program = new Program();
+        program.execute();
     }
 }
 
