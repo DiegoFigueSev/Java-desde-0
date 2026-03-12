@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Diego Figueroa",
+    "age": 23,
+    "student": true
+  },
+  {
+    "name": "Roberto Figueroa",
+    "age": 16,
+    "student": false
+  },
+  {
+    "name": "Daniela Figueroa",
+    "age": 30,
+    "student": true
+  }
+]

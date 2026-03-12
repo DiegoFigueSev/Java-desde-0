@@ -1,0 +1,9 @@
+{
+  "appName": "Task Manager",
+  "version": "2.0.0",
+  "settings": {
+    "theme": "white",
+    "notifications": true,
+    "language": "es"
+  }
+}

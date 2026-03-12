@@ -1,0 +1,10 @@
+{
+  "name": "Juan",
+  "age": 30,
+  "isStudent": false,
+  "hobbies": ["leer", "futbol", "programar"],
+  "study": {
+    "college": "Maryknoll",
+    "university": "Jala U"
+  }
+}

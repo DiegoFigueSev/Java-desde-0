@@ -1,18 +1,28 @@
 package org.diegofigueroa;
 
-import org.diegofigueroa.estructuras_de_datos.iteradores.MyListIterator;
-import org.diegofigueroa.manejo_de_exepciones.debugging.DebuggingDeExep;
-import org.diegofigueroa.manejo_de_exepciones.excepciones_personalizadas.PerExcep;
-import org.diegofigueroa.manejo_de_exepciones.introduccion.Introduccion;
-import org.diegofigueroa.manejo_de_exepciones.jerarquia.FileHandler;
-import org.diegofigueroa.manejo_de_exepciones.manejo_de_excepciones.FileRead;
-import org.diegofigueroa.manejo_de_exepciones.practica.ErrorSimulation;
-import org.diegofigueroa.manejo_de_exepciones.proyecto.Program;
+import org.diegofigueroa.jsons.gson.escribir_guardar_listas.MyPerson;
+import org.diegofigueroa.jsons.gson.escribir_guardar_listas.MyPersonReader;
+import org.diegofigueroa.jsons.gson.escribir_guardar_listas.MyPersonWriter;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     static void main() {
-        Program program = new Program();
-        program.execute();
+        MyPersonWriter.toJson("people.json", new ArrayList<>(Arrays.asList(
+                new MyPerson("Diego", 23, true, new ArrayList<>(Arrays.asList("programar"))),
+                new MyPerson("Roberto", 15, true, new ArrayList<>(Arrays.asList("dibujar", "leer"))),
+                new MyPerson("Daniela", 30, false, new ArrayList<>(Arrays.asList())),
+                new MyPerson("Celeste", 21, false, new ArrayList<>(Arrays.asList("estudiar", "chambear")))
+
+        )));
+
+        List<MyPerson> people = MyPersonReader.fromJson("people.json");
+        if (people == null) return;
+        for (MyPerson person : people){
+            System.out.println(person);
+        }
     }
 }
 

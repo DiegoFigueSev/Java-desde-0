@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Diego",
+    "age": 23,
+    "student": true,
+    "hobbies": [
+      "programar"
+    ]
+  },
+  {
+    "name": "Roberto",
+    "age": 15,
+    "student": true,
+    "hobbies": [
+      "dibujar",
+      "leer"
+    ]
+  },
+  {
+    "name": "Daniela",
+    "age": 30,
+    "student": false,
+    "hobbies": []
+  },
+  {
+    "name": "Celeste",
+    "age": 21,
+    "student": false,
+    "hobbies": [
+      "estudiar",
+      "chambear"
+    ]
+  }
+]
