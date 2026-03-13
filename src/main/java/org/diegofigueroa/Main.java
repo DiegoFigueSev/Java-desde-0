@@ -1,8 +1,8 @@
 package org.diegofigueroa;
 
-import org.diegofigueroa.jsons.gson.escribir_guardar_listas.MyPerson;
-import org.diegofigueroa.jsons.gson.escribir_guardar_listas.MyPersonReader;
-import org.diegofigueroa.jsons.gson.escribir_guardar_listas.MyPersonWriter;
+import org.diegofigueroa.tema_06_jsons.clase_04_escribiryguardarlistas.MyPerson;
+import org.diegofigueroa.tema_06_jsons.clase_04_escribiryguardarlistas.MyPersonReader;
+import org.diegofigueroa.tema_06_jsons.clase_04_escribiryguardarlistas.MyPersonWriter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
