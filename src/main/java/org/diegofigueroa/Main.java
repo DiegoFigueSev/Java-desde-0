@@ -3,6 +3,9 @@ package org.diegofigueroa;
 import org.diegofigueroa.tema_06_jsons.clase_04_escribiryguardarlistas.MyPerson;
 import org.diegofigueroa.tema_06_jsons.clase_04_escribiryguardarlistas.MyPersonReader;
 import org.diegofigueroa.tema_06_jsons.clase_04_escribiryguardarlistas.MyPersonWriter;
+import org.diegofigueroa.tema_07_mvc.controlador.TaskController;
+import org.diegofigueroa.tema_07_mvc.modelo.TaskRepository;
+import org.diegofigueroa.tema_07_mvc.vista.TaskView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,19 +13,11 @@ import java.util.List;
 
 public class Main {
     static void main() {
-        MyPersonWriter.toJson("people.json", new ArrayList<>(Arrays.asList(
-                new MyPerson("Diego", 23, true, new ArrayList<>(Arrays.asList("programar"))),
-                new MyPerson("Roberto", 15, true, new ArrayList<>(Arrays.asList("dibujar", "leer"))),
-                new MyPerson("Daniela", 30, false, new ArrayList<>(Arrays.asList())),
-                new MyPerson("Celeste", 21, false, new ArrayList<>(Arrays.asList("estudiar", "chambear")))
+        TaskRepository repository = new TaskRepository();
+        TaskController controller = new TaskController(repository);
+        TaskView view = new TaskView(controller);
 
-        )));
-
-        List<MyPerson> people = MyPersonReader.fromJson("people.json");
-        if (people == null) return;
-        for (MyPerson person : people){
-            System.out.println(person);
-        }
+        view.showMenu();
     }
 }
 
