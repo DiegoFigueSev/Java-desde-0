@@ -1,4 +1,4 @@
-package org.diegofigueroa.manejo_de_exepciones.try_with_resources;
+package org.diegofigueroa.tema_05_manejo_de_exepciones.try_with_resources;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

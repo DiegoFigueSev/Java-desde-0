@@ -1,4 +1,4 @@
-package org.diegofigueroa.manejo_de_exepciones.proyecto;
+package org.diegofigueroa.tema_05_manejo_de_exepciones.proyecto;
 
 
 import java.util.ArrayList;

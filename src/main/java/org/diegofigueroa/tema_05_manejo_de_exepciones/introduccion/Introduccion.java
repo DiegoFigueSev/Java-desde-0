@@ -1,4 +1,4 @@
-package org.diegofigueroa.manejo_de_exepciones.introduccion;
+package org.diegofigueroa.tema_05_manejo_de_exepciones.introduccion;
 
 public class Introduccion {
     {

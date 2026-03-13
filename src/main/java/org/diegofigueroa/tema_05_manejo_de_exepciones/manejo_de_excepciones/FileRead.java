@@ -1,7 +1,6 @@
-package org.diegofigueroa.manejo_de_exepciones.manejo_de_excepciones;
+package org.diegofigueroa.tema_05_manejo_de_exepciones.manejo_de_excepciones;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 

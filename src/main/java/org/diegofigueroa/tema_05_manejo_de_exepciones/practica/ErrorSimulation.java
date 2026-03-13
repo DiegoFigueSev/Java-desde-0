@@ -1,6 +1,4 @@
-package org.diegofigueroa.manejo_de_exepciones.practica;
-
-import javax.xml.transform.Source;
+package org.diegofigueroa.tema_05_manejo_de_exepciones.practica;
 
 public class ErrorSimulation {
     public static void simulateError() {

@@ -1,4 +1,4 @@
-package org.diegofigueroa.manejo_de_exepciones.jerarquia;
+package org.diegofigueroa.tema_05_manejo_de_exepciones.jerarquia;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
