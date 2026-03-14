@@ -6,6 +6,7 @@ import org.diegofigueroa.tema_06_jsons.clase_04_escribiryguardarlistas.MyPersonW
 import org.diegofigueroa.tema_07_mvc.controlador.TaskController;
 import org.diegofigueroa.tema_07_mvc.modelo.TaskRepository;
 import org.diegofigueroa.tema_07_mvc.vista.TaskView;
+import org.diegofigueroa.tema_08_lombok.Person;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,11 +14,17 @@ import java.util.List;
 
 public class Main {
     static void main() {
+        /*
         TaskRepository repository = new TaskRepository();
         TaskController controller = new TaskController(repository);
         TaskView view = new TaskView(controller);
 
         view.showMenu();
+
+         */
+
+        Person person = Person.builder().name("Diego").lastName("Figueroa").age(32).build();
+        System.out.println(person);
     }
 }
 
